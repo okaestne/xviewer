@@ -28,6 +28,7 @@ gnome.gtkdoc(
     mode: 'xml',
     install: true,
     main_xml: 'xviewer-docs.xml',
+    scan_args: ['--rebuild-types'],
     src_dir: [
         join_paths(meson.source_root(), 'src'),
         join_paths(meson.build_root(), 'src'),
